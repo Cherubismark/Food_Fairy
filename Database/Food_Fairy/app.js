@@ -33,7 +33,7 @@ connection.connect((err) => {
       }
 
       console.log("Food Distribution Information:");
-      console.table(results); // This will display the results in a table format
+      console.table(results); 
     }
   );
 });
